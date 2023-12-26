@@ -181,7 +181,7 @@ void nilai(Bio murid[], int index) {
         cout << "Input nilai Matematika: ";
         cin >> nilaiMatematika;
 
-        double ratarata = (nilaiBI + nilaiInggris + nilaiMatematika) / 3.0;
+        double ratarata = (nilaiBI + nilaiInggris + nilaiMatematika) / 3;
 
         cout << "\n=== Nilai Murid ===\n";
         cout << "Rata-rata nilai: " << setprecision(2) << fixed << ratarata << endl;
